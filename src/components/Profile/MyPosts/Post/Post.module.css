@@ -1,0 +1,15 @@
+.item {
+    position: relative;
+    padding-bottom: 7px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+.post img {
+    width: 50px;
+    border-radius: 30px;
+    user-select: none;
+}

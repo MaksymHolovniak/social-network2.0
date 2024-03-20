@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "deploy",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"label": "npm: deploy",
+			"detail": "gh-pages -d build",
+			"isBackground": true
+		}
+	]
+}

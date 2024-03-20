@@ -1,0 +1,21 @@
+@import url('./reset.css');
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #DDEBF6;
+}
+
+.main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.usersPage {
+    background: url("./assets/images/background-login.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto auto;
+    overflow: hidden;
+}
+

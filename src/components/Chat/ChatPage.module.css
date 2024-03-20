@@ -1,0 +1,87 @@
+.chat {
+    margin: 0 auto;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 505px;
+    overflow-y: auto;
+}
+
+.messages::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    background-color: #3B3B3B;
+}
+
+.messages::-webkit-scrollbar-thumb {
+    background-color: #808080;
+
+    border-radius: 10px;
+}
+
+.message {
+    display: flex;
+    column-gap: 10px;
+
+}
+.messageAuthor {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(141,198,63, .1);
+    width: 600px;
+}
+.messageAvatar {
+    width: 50px;
+    border-radius: 50%;
+}
+.messageAuthorName {
+    color: #ee7aae;
+    font-weight: 600;
+}
+
+.messageText {
+    font-size: 16px;
+}
+
+.formAddMessage {
+    padding-top: 25px;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+
+
+.formTextarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 10px;
+
+    background-color: #3B3B3B;
+    color: #fff;
+    border: 1px solid #ccc;
+    resize: none;
+}
+.formButton {
+   width: 80px;
+    height: 50px;
+}
+
+.formTextarea::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    background-color: #3B3B3B;
+}
+
+.formTextarea::-webkit-scrollbar-thumb {
+    background-color: #808080;
+
+    border-radius: 10px;
+}

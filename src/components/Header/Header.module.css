@@ -1,0 +1,29 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 0 30px;
+    user-select: none;
+    align-items: center;
+    color: #fff;
+}
+
+.img {
+    padding-left: 39px;
+}
+.logo {
+    width: 100px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+
+
+
+

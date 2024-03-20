@@ -1,0 +1,9 @@
+.dialog {
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.dialog a {
+    color: #000;
+}

@@ -1,0 +1,145 @@
+.users {
+    padding: 30px 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    margin: 0 auto;
+    user-select: none;
+    transition-duration: 5s;
+}
+
+.title {
+
+    background-color: #fff;
+}
+
+.titleText{
+    padding: 5px 25px;
+    display: flex;
+    color: #646464;
+    font-weight: 500;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.usersFiltersForm {
+    padding: 10px 10px;
+}
+
+.user {
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    background-color: #fff;
+    padding-right: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+.avatar img {
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 10px 0;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.location {
+    font-weight: 300;
+}
+
+
+.status {
+    max-width: 300px;
+}
+
+.button  {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: #34b7f1;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background: rgba(0,0,0,0);
+    color: #34b7f1;
+    box-shadow: inset 0 0 0 3px #34b7f1;
+    transition: all 0.5s ease;
+}
+
+
+.unfollow:hover {
+    background: rgba(0,0,0,0);
+    color: #c43737;
+    box-shadow: inset 0 0 0 3px #c43737;
+    transition: all 0.5s ease;
+}
+
+.button:disabled {
+    background-color: #646464;
+}
+
+.unfollow {
+    background-color: #c43737;
+}
+
+.pagination { 
+    display: flex;
+
+    font-size: 18px;
+    justify-content: center;
+    color: #FFF;
+    cursor: pointer;
+    align-items: center;
+
+}
+.numbersPages {
+    display: flex;
+}
+.unselectedPage {
+    background: #0078af;
+    padding: 15px 8px;
+}
+.unselectedPage:hover {
+    background: #e93536;
+}
+
+.selectedPage {
+    font-weight: 700;
+    background: #e93536;
+    padding: 15px 8px;
+    }
+
+.selectedPage:hover {
+    background: #0078af;
+}
+
+.backNextPage {
+    display: block;
+    padding: 15px 8px;
+    background: #0078af;
+}
+
+.backNextPage:hover {
+    background: #e93536;
+}

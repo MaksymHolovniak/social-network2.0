@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Outfit:wght@500&display=swap');
+
+.dialogs {
+    display: flex;
+    column-gap: 350px;
+    padding-top: 60px;
+}
+
+.dialogsItems {
+    padding-left: 40px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+
+    user-select: none;
+}
+
+.dialogsItems .active {
+ font-weight: 700;
+}
+.messages {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    user-select: none;
+}
+
+.submitMessage {
+    display: flex;
+    column-gap: 3px;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+
+.submitMessage textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 10px;
+
+    background-color: #3B3B3B;
+    color: #fff;
+
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.submitMessage textarea::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    background-color: #3B3B3B;
+}
+
+.submitMessage textarea::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 10px;
+}
+.submitMessage button {
+    display: inline-block;
+    padding: 11px 20px;
+    margin-top: 5px;
+
+    color: #fff;
+    font-size: 13px;
+    background-color: #FF5733;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.submitMessage button:hover {
+    background: rgba(0,0,0,0);
+    color: #FF5733;
+    box-shadow: inset 0 0 0 3px #FF5733;
+    transition: all 0.5s ease;
+}
+ 

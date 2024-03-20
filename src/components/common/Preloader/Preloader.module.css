@@ -1,0 +1,6 @@
+.preloader {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    user-select: none;
+}
